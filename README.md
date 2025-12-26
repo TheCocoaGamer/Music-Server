@@ -133,6 +133,8 @@ Launch Navidrome and Caddy.
    - Start Caddy web server
 3. Wait for services to fully start (may take 1-2 minutes)
 
+**Note**: The script runs in the background and will create a startup script that automatically starts these services when Windows boots. Manual running is only required for initial setup and troubleshooting. If needed, the background processes can be stopped through Task Manager.
+
 ### 10. Access Your Music Server
 
 Open your web browser and go to:
