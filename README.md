@@ -1,3 +1,10 @@
+# -----
+
+# **PLEASE NOTE**
+**This project is still being worked on, everything you see is an alpha build, with more functionality and ease of access planned for the future.**
+
+# -----
+
 # Music Server Setup
 
 This repository contains a complete setup for a personal music streaming server using Navidrome, along with Python scripts for automated music downloading and playlist management.
