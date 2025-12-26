@@ -104,12 +104,24 @@ Set up the configuration file with your paths.
    - `DOMAIN`: Set to your domain name (e.g., `music.example.com`) or your PC's IP address (e.g., `192.168.1.100`)
    - All paths should be relative (starting with `./`) unless you need absolute paths
 
-### 8. Install Python Dependencies
+### 8. Install Dependencies
 
-Install required libraries for the music scripts.
+#### Python Libraries
+Install required Python libraries for the music scripts.
 
 1. Open Command Prompt in the `Music-Server` directory
 2. Run: `pip install yt-dlp mutagen aiofiles`
+
+#### FFmpeg
+FFmpeg is required for audio conversion (MP3 extraction from videos).
+
+1. Go to https://ffmpeg.org/download.html
+2. Download the latest Windows build (static version)
+3. Extract the zip file
+4. Add the `bin` folder to your system PATH:
+   - Copy the path to the `bin` folder (e.g., `C:\ffmpeg\bin`)
+   - Follow the PATH instructions from step 4 (Caddy installation)
+5. Verify: Open Command Prompt and run `ffmpeg -version`
 
 ### 9. Start the Services
 
