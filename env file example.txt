@@ -1,0 +1,18 @@
+Create an .env file with these variables:
+
+All of these paths were made to be in the same folder, errors may occur if that is not the case.
+
+MUSIC_DIR= Path to directory of Music (same as PLAYLISTS_DIR)
+NAVIDROME_DIR= Path to Navidrome Root
+DOMAIN= IP to connect through PC
+
+# Additional paths for Python scripts
+
+SONGS_FILE=File for songs.txt file (File to download songs from youtube via a link or query instead of manually typing it in).
+TEMP_DIR=Directory to download songs to a temp directory that either have no playlist, or a temp folder for those that do.
+PLAYLISTS_DIR=Path to songs with playlists as .m3u, same as MUSIC_DIR
+ALL_SONGS= Folder inside PLAYLISTS_DIR, that hold the mp3 songs.
+
+# Paths for MusicSort script
+SOURCE_ROOT=Same to ALL_SONGS, directory that holds raw mp3s.
+DEST_ROOT=Main folder that everything should be in.
