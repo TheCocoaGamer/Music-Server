@@ -171,3 +171,24 @@ This is the primary tool for music management.
 - `Scripts/MusicSort(for Deezer Transfer).py` - Music file organization
 
 To use any script, run: `python Scripts/scriptname.py`
+
+## Mobile App Access
+
+You can also access your music server from mobile devices using Navidrome-compatible apps that support the Subsonic API.
+
+### Recommended Apps
+
+- **Android**: Ultrasonic, DSub
+- **iOS**: Amperfy
+
+### Setup Instructions
+
+1. Install one of the compatible apps from your app store
+2. Add a new server with these settings:
+   - **Server URL**: `https://your-domain.com` or `https://your-ip-address`
+   - **Username**: Your Navidrome username (default: admin)
+   - **Password**: Your Navidrome password
+   - **API Version**: Subsonic API v1.16.1 (or latest available)
+3. Test the connection and start streaming
+
+**Note**: Ensure your server is accessible from the internet if connecting remotely. Consider using Tailscale for secure remote access.
